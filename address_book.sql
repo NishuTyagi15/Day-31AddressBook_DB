@@ -14,3 +14,12 @@ CREATE TABLE address_book (
     email_id				VARCHAR(255) NOT NULL
 );
 DESCRIBE address_book;
+
+INSERT INTO address_book(first_name, last_name, address, city, state, zip, phone_number, email_id) VALUES
+('Nishu', 'Tyagi', 'Vasundhara', 'Ghaziabad', 'UP', 201012, '9858778634', 'nishu.tyagi@gmail.com'),
+('Krati', 'Gupta', 'Kawdli', 'Kanpur', 'UP', 288784, '7889764667', 'krati.gupta@gmail.com'),
+('Shivam', 'Tyagi', 'Shubash Nagar', 'Roorkee', 'Uttarakhand', 247667, '7878098776', 'shivam.tyagi@gmail.com'),
+('Sunidhi', 'Goel', 'Laxmi Nagar', 'New Delhi', 'Delhi', 235566, '9776578834', 'sunidhi.goel@gmail.com'),
+('Anjali', 'Yadav', 'Khoda', 'Ghaziabad', 'UP', 201010, '9775557882', 'anjali.yadav@gmail.com'),
+('Avneet', 'Singh', 'Ram Nagar', 'Roorkee', 'Uttrakhand', 233444, '7877546865', 'avneet.singh@gmail.com');
+SELECT *FROM address_book;
