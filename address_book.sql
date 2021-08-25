@@ -23,3 +23,6 @@ INSERT INTO address_book(first_name, last_name, address, city, state, zip, phone
 ('Anjali', 'Yadav', 'Khoda', 'Ghaziabad', 'UP', 201010, '9775557882', 'anjali.yadav@gmail.com'),
 ('Avneet', 'Singh', 'Ram Nagar', 'Roorkee', 'Uttrakhand', 233444, '7877546865', 'avneet.singh@gmail.com');
 SELECT *FROM address_book;
+
+UPDATE address_book set address = 'Kidwai Nagar' WHERE first_name = 'Krati';
+SELECT * FROM address_book;
