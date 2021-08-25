@@ -26,3 +26,6 @@ SELECT *FROM address_book;
 
 UPDATE address_book set address = 'Kidwai Nagar' WHERE first_name = 'Krati';
 SELECT * FROM address_book;
+
+DELETE FROM address_book WHERE first_name = 'Avneet' and last_name = 'Singh';
+SELECT * FROM address_book;
