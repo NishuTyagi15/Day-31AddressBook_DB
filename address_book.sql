@@ -31,3 +31,5 @@ DELETE FROM address_book WHERE first_name = 'Avneet' and last_name = 'Singh';
 SELECT * FROM address_book;
 
 SELECT * FROM address_book WHERE city = 'Ghaziabad' or state = 'Ghaziabad';
+
+SELECT COUNT(*)  FROM address_book WHERE city = 'Ghaziabad' or state = 'Ghaziabad';
