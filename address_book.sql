@@ -33,3 +33,5 @@ SELECT * FROM address_book;
 SELECT * FROM address_book WHERE city = 'Ghaziabad' or state = 'Ghaziabad';
 
 SELECT COUNT(*)  FROM address_book WHERE city = 'Ghaziabad' or state = 'Ghaziabad';
+
+SELECT * FROM address_book a WHERE city = 'Ghaziabad' ORDER BY a.first_name;
