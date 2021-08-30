@@ -41,3 +41,5 @@ UPDATE address_book SET type = 'Family' WHERE first_name = 'Nishu' or first_name
 UPDATE address_book SET type = 'Friend' WHERE first_name = 'Sunidhi' or first_name = 'Anjali';
 UPDATE address_book SET type = 'Profession' WHERE first_name = 'Krati';
 SELECT * FROM address_book;
+
+SELECT type, Count(first_name) FROM address_book GROUP BY type;
