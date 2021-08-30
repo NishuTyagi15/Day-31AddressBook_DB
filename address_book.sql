@@ -35,3 +35,9 @@ SELECT * FROM address_book WHERE city = 'Ghaziabad' or state = 'Ghaziabad';
 SELECT COUNT(*)  FROM address_book WHERE city = 'Ghaziabad' or state = 'Ghaziabad';
 
 SELECT * FROM address_book a WHERE city = 'Ghaziabad' ORDER BY a.first_name;
+
+ALTER TABLE address_book ADD type VARCHAR(255) AFTER last_name;
+UPDATE address_book SET type = 'Family' WHERE first_name = 'Nishu' or first_name = 'Shivam';
+UPDATE address_book SET type = 'Friend' WHERE first_name = 'Sunidhi' or first_name = 'Anjali';
+UPDATE address_book SET type = 'Profession' WHERE first_name = 'Krati';
+SELECT * FROM address_book;
